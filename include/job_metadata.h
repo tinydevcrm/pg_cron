@@ -27,6 +27,7 @@ typedef struct CronJob
 	char *database;
 	char *userName;
 	bool active;
+	Name jobName;
 } CronJob;
 
 
